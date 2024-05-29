@@ -34,12 +34,21 @@
             this.ekleKullanicibtn = new System.Windows.Forms.Button();
             this.guncelleKullanicibtn = new System.Windows.Forms.Button();
             this.silKullanicibtn = new System.Windows.Forms.Button();
+            this.silKitapbtn = new System.Windows.Forms.Button();
+            this.guncelleKitapbtn = new System.Windows.Forms.Button();
+            this.ekleKitapbtn = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.AutoScroll = true;
             this.panel1.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.panel1.Controls.Add(this.silKitapbtn);
+            this.panel1.Controls.Add(this.guncelleKitapbtn);
+            this.panel1.Controls.Add(this.ekleKitapbtn);
+            this.panel1.Controls.Add(this.button5);
             this.panel1.Controls.Add(this.silKullanicibtn);
             this.panel1.Controls.Add(this.guncelleKullanicibtn);
             this.panel1.Controls.Add(this.ekleKullanicibtn);
@@ -47,7 +56,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(236, 661);
+            this.panel1.Size = new System.Drawing.Size(236, 513);
             this.panel1.TabIndex = 0;
             // 
             // panel2
@@ -63,6 +72,7 @@
             // button1
             // 
             this.button1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button1.ForeColor = System.Drawing.Color.Red;
             this.button1.Location = new System.Drawing.Point(0, 0);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(236, 64);
@@ -78,7 +88,7 @@
             this.ekleKullanicibtn.Name = "ekleKullanicibtn";
             this.ekleKullanicibtn.Size = new System.Drawing.Size(236, 64);
             this.ekleKullanicibtn.TabIndex = 3;
-            this.ekleKullanicibtn.Text = "Ekle";
+            this.ekleKullanicibtn.Text = "Kullanıcı Ekle";
             this.ekleKullanicibtn.UseVisualStyleBackColor = true;
             this.ekleKullanicibtn.Click += new System.EventHandler(this.ekleKullanicibtn_Click);
             // 
@@ -89,7 +99,7 @@
             this.guncelleKullanicibtn.Name = "guncelleKullanicibtn";
             this.guncelleKullanicibtn.Size = new System.Drawing.Size(236, 64);
             this.guncelleKullanicibtn.TabIndex = 4;
-            this.guncelleKullanicibtn.Text = "Güncelle";
+            this.guncelleKullanicibtn.Text = "Kullanıcı Güncelle";
             this.guncelleKullanicibtn.UseVisualStyleBackColor = true;
             this.guncelleKullanicibtn.Click += new System.EventHandler(this.guncelleKullanicibtn_Click);
             // 
@@ -100,15 +110,57 @@
             this.silKullanicibtn.Name = "silKullanicibtn";
             this.silKullanicibtn.Size = new System.Drawing.Size(236, 64);
             this.silKullanicibtn.TabIndex = 5;
-            this.silKullanicibtn.Text = "Sil";
+            this.silKullanicibtn.Text = "Kullanıcı Sil";
             this.silKullanicibtn.UseVisualStyleBackColor = true;
             this.silKullanicibtn.Click += new System.EventHandler(this.silKullanicibtn_Click);
+            // 
+            // silKitapbtn
+            // 
+            this.silKitapbtn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.silKitapbtn.Location = new System.Drawing.Point(0, 448);
+            this.silKitapbtn.Name = "silKitapbtn";
+            this.silKitapbtn.Size = new System.Drawing.Size(236, 64);
+            this.silKitapbtn.TabIndex = 9;
+            this.silKitapbtn.Text = "Kitap Sil";
+            this.silKitapbtn.UseVisualStyleBackColor = true;
+            // 
+            // guncelleKitapbtn
+            // 
+            this.guncelleKitapbtn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guncelleKitapbtn.Location = new System.Drawing.Point(0, 384);
+            this.guncelleKitapbtn.Name = "guncelleKitapbtn";
+            this.guncelleKitapbtn.Size = new System.Drawing.Size(236, 64);
+            this.guncelleKitapbtn.TabIndex = 8;
+            this.guncelleKitapbtn.Text = "Kitap Güncelle";
+            this.guncelleKitapbtn.UseVisualStyleBackColor = true;
+            // 
+            // ekleKitapbtn
+            // 
+            this.ekleKitapbtn.Dock = System.Windows.Forms.DockStyle.Top;
+            this.ekleKitapbtn.Location = new System.Drawing.Point(0, 320);
+            this.ekleKitapbtn.Name = "ekleKitapbtn";
+            this.ekleKitapbtn.Size = new System.Drawing.Size(236, 64);
+            this.ekleKitapbtn.TabIndex = 7;
+            this.ekleKitapbtn.Text = "Kitap Ekle";
+            this.ekleKitapbtn.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button5.ForeColor = System.Drawing.Color.Red;
+            this.button5.Location = new System.Drawing.Point(0, 256);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(236, 64);
+            this.button5.TabIndex = 6;
+            this.button5.Text = "Kitaplar";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // IslemPaneli
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1227, 661);
+            this.ClientSize = new System.Drawing.Size(1227, 513);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -130,5 +182,9 @@
         private System.Windows.Forms.Button ekleKullanicibtn;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Button silKitapbtn;
+        private System.Windows.Forms.Button guncelleKitapbtn;
+        private System.Windows.Forms.Button ekleKitapbtn;
+        private System.Windows.Forms.Button button5;
     }
 }

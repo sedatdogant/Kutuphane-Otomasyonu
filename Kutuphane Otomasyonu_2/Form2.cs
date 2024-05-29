@@ -21,10 +21,16 @@ namespace Kutuphane_Otomasyonu_2
 
         private void IslemPaneli_Load(object sender, EventArgs e)
         {
+            //kullanıcı butonları girişte kapalı
             ekleKullanicibtn.Visible = false;
             guncelleKullanicibtn.Visible = false;
             silKullanicibtn.Visible=false;
-            
+
+            //kitap butonları girişte kapalı
+            ekleKitapbtn.Visible = false;
+            guncelleKitapbtn.Visible = false;
+            silKitapbtn.Visible = false;
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -74,6 +80,25 @@ namespace Kutuphane_Otomasyonu_2
             kullaniciGuncelle kullaniciGuncelle = new kullaniciGuncelle();
             kullaniciGuncelle.MdiParent = this;
             kullaniciGuncelle.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            if(ekleKitapbtn.Visible == false)
+            {
+                ekleKitapbtn.Visible = true;
+                guncelleKitapbtn.Visible = true;
+                silKitapbtn.Visible = true;
+            }
+            else
+            {
+                ekleKitapbtn.Visible = false;
+                guncelleKitapbtn.Visible = false;
+                silKitapbtn.Visible = false;
+            }
+            KaynakListeForm kaynakListe = new KaynakListeForm();
+            kaynakListe.MdiParent = this;
+            kaynakListe.Show();
         }
     }
 }
