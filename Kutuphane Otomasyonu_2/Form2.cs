@@ -1,4 +1,5 @@
-﻿using Kutuphane_Otomasyonu_2.Kaynaklar_Kitaplar;
+﻿using Kutuphane_Otomasyonu_2.Kayıt;
+using Kutuphane_Otomasyonu_2.Kaynaklar_Kitaplar;
 using Kutuphane_Otomasyonu_2.Kullanici;
 using System;
 using System.Collections.Generic;
@@ -121,6 +122,13 @@ namespace Kutuphane_Otomasyonu_2
             KaynakGuncelle kaynakGuncelle = new KaynakGuncelle();
             kaynakGuncelle.MdiParent = this;
             kaynakGuncelle.Show();
+        }
+
+        private void btn_odunc_Click(object sender, EventArgs e)
+        {
+            oduncVer oduncVer = new oduncVer();
+            oduncVer.MdiParent = this;
+            oduncVer.Show();
         }
     }
 }

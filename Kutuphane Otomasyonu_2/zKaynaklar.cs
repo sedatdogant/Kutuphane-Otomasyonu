@@ -14,10 +14,19 @@ namespace Kutuphane_Otomasyonu_2
     
     public partial class zKaynaklar
     {
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        public zKaynaklar()
+        {
+            this.zKayitlar = new HashSet<zKayitlar>();
+        }
+    
         public int kaynak_id { get; set; }
         public string kaynak_ad { get; set; }
         public string kaynak_yazar { get; set; }
         public string kaynak_yayinevi { get; set; }
         public string kaynak_sayfasayisi { get; set; }
+    
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<zKayitlar> zKayitlar { get; set; }
     }
 }

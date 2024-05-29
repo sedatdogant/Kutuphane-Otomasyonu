@@ -28,5 +28,7 @@ namespace Kutuphane_Otomasyonu_2
         public virtual DbSet<Personel> Personel { get; set; }
         public virtual DbSet<Kullanicilar> Kullanicilar { get; set; }
         public virtual DbSet<zKaynaklar> zKaynaklar { get; set; }
+        public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
+        public virtual DbSet<zKayitlar> zKayitlar { get; set; }
     }
 }
