@@ -1,4 +1,5 @@
-﻿using Kutuphane_Otomasyonu_2.Kullanici;
+﻿using Kutuphane_Otomasyonu_2.Kaynaklar_Kitaplar;
+using Kutuphane_Otomasyonu_2.Kullanici;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -99,6 +100,13 @@ namespace Kutuphane_Otomasyonu_2
             KaynakListeForm kaynakListe = new KaynakListeForm();
             kaynakListe.MdiParent = this;
             kaynakListe.Show();
+        }
+
+        private void ekleKitapbtn_Click(object sender, EventArgs e)
+        {
+            KaynakEkleForm kaynakEkle = new KaynakEkleForm();
+            kaynakEkle.MdiParent = this;
+            kaynakEkle.Show();
         }
     }
 }

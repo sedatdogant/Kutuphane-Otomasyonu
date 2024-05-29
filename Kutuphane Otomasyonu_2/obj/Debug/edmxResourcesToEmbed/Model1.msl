@@ -29,5 +29,17 @@
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
+    <EntitySetMapping Name="Kaynaklar2">
+      <EntityTypeMapping TypeName="Model.Kaynaklar2">
+        <MappingFragment StoreEntitySet="Kaynaklar2">
+          <ScalarProperty Name="kaynak_basımtarihi" ColumnName="kaynak_basımtarihi" />
+          <ScalarProperty Name="kaynak_sayfasayisi" ColumnName="kaynak_sayfasayisi" />
+          <ScalarProperty Name="kaynak_yayinevi" ColumnName="kaynak_yayinevi" />
+          <ScalarProperty Name="kaynak_yazar" ColumnName="kaynak_yazar" />
+          <ScalarProperty Name="kaynak_ad" ColumnName="kaynak_ad" />
+          <ScalarProperty Name="kaynak_id" ColumnName="kaynak_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
   </EntityContainerMapping>
 </Mapping>

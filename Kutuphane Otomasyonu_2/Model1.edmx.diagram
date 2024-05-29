@@ -7,6 +7,7 @@
       <Diagram DiagramId="ad8aab6da01d4be590ed208635be1e41" Name="Diagram1">
         <EntityTypeShape EntityType="Model.Personel" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="Model.Kullanicilar" Width="1.5" PointX="3.375" PointY="0.75" />
+        <EntityTypeShape EntityType="Model.Kaynaklar2" Width="1.5" PointX="6.75" PointY="1.875" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
