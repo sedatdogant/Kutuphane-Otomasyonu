@@ -1,0 +1,15 @@
+C:\Users\leose\source\repos\Kutuphane Otomasyonu_2\Kutuphane Otomasyonu_2\bin\Debug\Kutuphane Otomasyonu_2.exe.config
+C:\Users\leose\source\repos\Kutuphane Otomasyonu_2\Kutuphane Otomasyonu_2\bin\Debug\Kutuphane Otomasyonu_2.exe
+C:\Users\leose\source\repos\Kutuphane Otomasyonu_2\Kutuphane Otomasyonu_2\bin\Debug\Kutuphane Otomasyonu_2.pdb
+C:\Users\leose\source\repos\Kutuphane Otomasyonu_2\Kutuphane Otomasyonu_2\obj\Debug\Kutuphane Otomasyonu_2.csproj.AssemblyReference.cache
+C:\Users\leose\source\repos\Kutuphane Otomasyonu_2\Kutuphane Otomasyonu_2\obj\Debug\Kutuphane_Otomasyonu_2.Form1.resources
+C:\Users\leose\source\repos\Kutuphane Otomasyonu_2\Kutuphane Otomasyonu_2\obj\Debug\Kutuphane_Otomasyonu_2.Properties.Resources.resources
+C:\Users\leose\source\repos\Kutuphane Otomasyonu_2\Kutuphane Otomasyonu_2\obj\Debug\Kutuphane Otomasyonu_2.csproj.GenerateResource.cache
+C:\Users\leose\source\repos\Kutuphane Otomasyonu_2\Kutuphane Otomasyonu_2\obj\Debug\Kutuphane Otomasyonu_2.csproj.CoreCompileInputs.cache
+C:\Users\leose\source\repos\Kutuphane Otomasyonu_2\Kutuphane Otomasyonu_2\obj\Debug\Kutuphane Otomasyonu_2.exe
+C:\Users\leose\source\repos\Kutuphane Otomasyonu_2\Kutuphane Otomasyonu_2\obj\Debug\Kutuphane Otomasyonu_2.pdb
+C:\Users\leose\source\repos\Kutuphane Otomasyonu_2\Kutuphane Otomasyonu_2\bin\Debug\EntityFramework.dll
+C:\Users\leose\source\repos\Kutuphane Otomasyonu_2\Kutuphane Otomasyonu_2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\leose\source\repos\Kutuphane Otomasyonu_2\Kutuphane Otomasyonu_2\bin\Debug\EntityFramework.xml
+C:\Users\leose\source\repos\Kutuphane Otomasyonu_2\Kutuphane Otomasyonu_2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\leose\source\repos\Kutuphane Otomasyonu_2\Kutuphane Otomasyonu_2\obj\Debug\Kutuphan.FEDBF722.Up2Date

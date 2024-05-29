@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="Kutuphane_Otomasyonu_2Entities">
+    <EntitySetMapping Name="Personel">
+      <EntityTypeMapping TypeName="Model.Personel">
+        <MappingFragment StoreEntitySet="Personel">
+          <ScalarProperty Name="personel_id" ColumnName="personel_id" />
+          <ScalarProperty Name="personel_ad" ColumnName="personel_ad" />
+          <ScalarProperty Name="personel_soyad" ColumnName="personel_soyad" />
+          <ScalarProperty Name="personel_tc" ColumnName="personel_tc" />
+          <ScalarProperty Name="personel_tel" ColumnName="personel_tel" />
+          <ScalarProperty Name="personel_mail" ColumnName="personel_mail" />
+          <ScalarProperty Name="personel_kullaniciAd" ColumnName="personel_kullaniciAd" />
+          <ScalarProperty Name="personel_sifre" ColumnName="personel_sifre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
