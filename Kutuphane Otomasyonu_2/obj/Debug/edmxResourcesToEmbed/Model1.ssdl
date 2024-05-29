@@ -1,21 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Schema Namespace="Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
   <!--Errors Found During Generation:
-warning 6002: The table/view 'Kutuphane Otomasyonu_2.dbo.Kullanicilar' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
-  <EntityType Name="Kullanicilar">
-    <Key>
-      <PropertyRef Name="kullanici_id" />
-    </Key>
-    <Property Name="kullanici_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="kullanici_ad" Type="nvarchar" MaxLength="50" />
-    <Property Name="kullanici_soyad" Type="nvarchar" MaxLength="50" />
-    <Property Name="kullanici_tc" Type="nvarchar" MaxLength="11" />
-    <Property Name="kullanici_mail" Type="nvarchar" MaxLength="50" />
-    <Property Name="kullanici_tel" Type="nvarchar" MaxLength="11" />
-    <Property Name="kullanici_ceza" Type="float" />
-    <Property Name="kullanici_cinsiyet" Type="nvarchar" MaxLength="1" />
-  </EntityType>
-  <!--Errors Found During Generation:
 warning 6002: The table/view 'Kutuphane Otomasyonu_2.dbo.Personel' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
   <EntityType Name="Personel">
     <Key>
@@ -30,31 +15,7 @@ warning 6002: The table/view 'Kutuphane Otomasyonu_2.dbo.Personel' does not have
     <Property Name="personel_kullaniciAd" Type="nvarchar" MaxLength="50" />
     <Property Name="personel_sifre" Type="nvarchar" MaxLength="50" />
   </EntityType>
-  <!--Errors Found During Generation:
-warning 6002: The table/view 'Kutuphane Otomasyonu_2.dbo.zKaynaklar' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
-  <EntityType Name="zKaynaklar">
-    <Key>
-      <PropertyRef Name="kaynak_id" />
-    </Key>
-    <Property Name="kaynak_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="kaynak_ad" Type="nvarchar" MaxLength="50" />
-    <Property Name="kaynak_yazar" Type="nvarchar" MaxLength="50" />
-    <Property Name="kaynak_yayinevi" Type="nvarchar" MaxLength="50" />
-    <Property Name="kaynak_sayfasayisi" Type="nvarchar" MaxLength="50" />
-  </EntityType>
   <EntityContainer Name="ModelStoreContainer">
-    <EntitySet Name="Kullanicilar" EntityType="Self.Kullanicilar" store:Type="Tables" store:Schema="dbo">
-      <DefiningQuery>SELECT 
-    [Kullanicilar].[kullanici_id] AS [kullanici_id], 
-    [Kullanicilar].[kullanici_ad] AS [kullanici_ad], 
-    [Kullanicilar].[kullanici_soyad] AS [kullanici_soyad], 
-    [Kullanicilar].[kullanici_tc] AS [kullanici_tc], 
-    [Kullanicilar].[kullanici_mail] AS [kullanici_mail], 
-    [Kullanicilar].[kullanici_tel] AS [kullanici_tel], 
-    [Kullanicilar].[kullanici_ceza] AS [kullanici_ceza], 
-    [Kullanicilar].[kullanici_cinsiyet] AS [kullanici_cinsiyet]
-    FROM [dbo].[Kullanicilar] AS [Kullanicilar]</DefiningQuery>
-    </EntitySet>
     <EntitySet Name="Personel" EntityType="Self.Personel" store:Type="Tables" store:Schema="dbo">
       <DefiningQuery>SELECT 
     [Personel].[personel_id] AS [personel_id], 
@@ -66,15 +27,6 @@ warning 6002: The table/view 'Kutuphane Otomasyonu_2.dbo.zKaynaklar' does not ha
     [Personel].[personel_kullaniciAd] AS [personel_kullaniciAd], 
     [Personel].[personel_sifre] AS [personel_sifre]
     FROM [dbo].[Personel] AS [Personel]</DefiningQuery>
-    </EntitySet>
-    <EntitySet Name="zKaynaklar" EntityType="Self.zKaynaklar" store:Type="Tables" store:Schema="dbo">
-      <DefiningQuery>SELECT 
-    [zKaynaklar].[kaynak_id] AS [kaynak_id], 
-    [zKaynaklar].[kaynak_ad] AS [kaynak_ad], 
-    [zKaynaklar].[kaynak_yazar] AS [kaynak_yazar], 
-    [zKaynaklar].[kaynak_yayinevi] AS [kaynak_yayinevi], 
-    [zKaynaklar].[kaynak_sayfasayisi] AS [kaynak_sayfasayisi]
-    FROM [dbo].[zKaynaklar] AS [zKaynaklar]</DefiningQuery>
     </EntitySet>
   </EntityContainer>
 </Schema>

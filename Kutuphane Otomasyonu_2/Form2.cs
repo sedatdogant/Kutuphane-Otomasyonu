@@ -126,7 +126,7 @@ namespace Kutuphane_Otomasyonu_2
 
         private void btn_odunc_Click(object sender, EventArgs e)
         {
-            oduncVer oduncVer = new oduncVer();
+            OduncVer oduncVer = new OduncVer();
             oduncVer.MdiParent = this;
             oduncVer.Show();
         }
