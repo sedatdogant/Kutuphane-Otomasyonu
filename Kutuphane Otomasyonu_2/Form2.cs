@@ -68,5 +68,12 @@ namespace Kutuphane_Otomasyonu_2
 
             //nesne olusturduk nesnenin babası bu dedik nesneyi göster dedik.
         }
+
+        private void guncelleKullanicibtn_Click(object sender, EventArgs e)
+        {
+            kullaniciGuncelle kullaniciGuncelle = new kullaniciGuncelle();
+            kullaniciGuncelle.MdiParent = this;
+            kullaniciGuncelle.Show();
+        }
     }
 }

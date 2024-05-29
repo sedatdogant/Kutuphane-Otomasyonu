@@ -91,6 +91,7 @@
             this.guncelleKullanicibtn.TabIndex = 4;
             this.guncelleKullanicibtn.Text = "Güncelle";
             this.guncelleKullanicibtn.UseVisualStyleBackColor = true;
+            this.guncelleKullanicibtn.Click += new System.EventHandler(this.guncelleKullanicibtn_Click);
             // 
             // silKullanicibtn
             // 

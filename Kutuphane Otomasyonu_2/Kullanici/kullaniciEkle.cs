@@ -47,9 +47,10 @@ namespace Kutuphane_Otomasyonu_2.Kullanici
         {
             Listele();
         }
+        
         public void Listele()
         {
-            Kutuphane_Otomasyonu_2Entities db = new Kutuphane_Otomasyonu_2Entities();
+            
             var kullanicilar = db.Kullanicilar.ToList();
             dataGridView1.DataSource = kullanicilar.ToList();
         }
