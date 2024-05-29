@@ -6,19 +6,6 @@
     <edmx:StorageModels>
     <Schema Namespace="Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <!--Errors Found During Generation:
-warning 6002: The table/view 'Kutuphane Otomasyonu_2.dbo.Kaynaklar2' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
-        <EntityType Name="Kaynaklar2">
-          <Key>
-            <PropertyRef Name="kaynak_id" />
-          </Key>
-          <Property Name="kaynak_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="kaynak_ad" Type="nvarchar" MaxLength="50" />
-          <Property Name="kaynak_yazar" Type="nvarchar" MaxLength="50" />
-          <Property Name="kaynak_yayinevi" Type="nvarchar" MaxLength="50" />
-          <Property Name="kaynak_sayfasayisi" Type="nvarchar" MaxLength="50" />
-          <Property Name="kaynak_basımtarihi" Type="datetime" />
-        </EntityType>
-        <!--Errors Found During Generation:
 warning 6002: The table/view 'Kutuphane Otomasyonu_2.dbo.Kullanicilar' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="Kullanicilar">
           <Key>
@@ -48,17 +35,19 @@ warning 6002: The table/view 'Kutuphane Otomasyonu_2.dbo.Personel' does not have
           <Property Name="personel_kullaniciAd" Type="nvarchar" MaxLength="50" />
           <Property Name="personel_sifre" Type="nvarchar" MaxLength="50" />
         </EntityType>
+        <!--Errors Found During Generation:
+warning 6002: The table/view 'Kutuphane Otomasyonu_2.dbo.zKaynaklar' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+        <EntityType Name="zKaynaklar">
+          <Key>
+            <PropertyRef Name="kaynak_id" />
+          </Key>
+          <Property Name="kaynak_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="kaynak_ad" Type="nvarchar" MaxLength="50" />
+          <Property Name="kaynak_yazar" Type="nvarchar" MaxLength="50" />
+          <Property Name="kaynak_yayinevi" Type="nvarchar" MaxLength="50" />
+          <Property Name="kaynak_sayfasayisi" Type="nvarchar" MaxLength="50" />
+        </EntityType>
         <EntityContainer Name="ModelStoreContainer">
-          <EntitySet Name="Kaynaklar2" EntityType="Self.Kaynaklar2" store:Type="Tables" store:Schema="dbo">
-            <DefiningQuery>SELECT 
-    [Kaynaklar2].[kaynak_id] AS [kaynak_id], 
-    [Kaynaklar2].[kaynak_ad] AS [kaynak_ad], 
-    [Kaynaklar2].[kaynak_yazar] AS [kaynak_yazar], 
-    [Kaynaklar2].[kaynak_yayinevi] AS [kaynak_yayinevi], 
-    [Kaynaklar2].[kaynak_sayfasayisi] AS [kaynak_sayfasayisi], 
-    [Kaynaklar2].[kaynak_basımtarihi] AS [kaynak_basımtarihi]
-    FROM [dbo].[Kaynaklar2] AS [Kaynaklar2]</DefiningQuery>
-          </EntitySet>
           <EntitySet Name="Kullanicilar" EntityType="Self.Kullanicilar" store:Type="Tables" store:Schema="dbo">
             <DefiningQuery>SELECT 
     [Kullanicilar].[kullanici_id] AS [kullanici_id], 
@@ -83,6 +72,15 @@ warning 6002: The table/view 'Kutuphane Otomasyonu_2.dbo.Personel' does not have
     [Personel].[personel_sifre] AS [personel_sifre]
     FROM [dbo].[Personel] AS [Personel]</DefiningQuery>
           </EntitySet>
+          <EntitySet Name="zKaynaklar" EntityType="Self.zKaynaklar" store:Type="Tables" store:Schema="dbo">
+            <DefiningQuery>SELECT 
+    [zKaynaklar].[kaynak_id] AS [kaynak_id], 
+    [zKaynaklar].[kaynak_ad] AS [kaynak_ad], 
+    [zKaynaklar].[kaynak_yazar] AS [kaynak_yazar], 
+    [zKaynaklar].[kaynak_yayinevi] AS [kaynak_yayinevi], 
+    [zKaynaklar].[kaynak_sayfasayisi] AS [kaynak_sayfasayisi]
+    FROM [dbo].[zKaynaklar] AS [zKaynaklar]</DefiningQuery>
+          </EntitySet>
         </EntityContainer>
       </Schema></edmx:StorageModels>
     <!-- CSDL content -->
@@ -104,7 +102,7 @@ warning 6002: The table/view 'Kutuphane Otomasyonu_2.dbo.Personel' does not have
         <EntityContainer Name="Kutuphane_Otomasyonu_2Entities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Personel" EntityType="Self.Personel" />
           <EntitySet Name="Kullanicilar" EntityType="Model.Kullanicilar" />
-          <EntitySet Name="Kaynaklar2" EntityType="Model.Kaynaklar2" />
+          <EntitySet Name="zKaynaklar" EntityType="Model.zKaynaklar" />
         </EntityContainer>
         <EntityType Name="Kullanicilar">
           <Key>
@@ -119,7 +117,7 @@ warning 6002: The table/view 'Kutuphane Otomasyonu_2.dbo.Personel' does not have
           <Property Name="kullanici_ceza" Type="Double" />
           <Property Name="kullanici_cinsiyet" Type="String" MaxLength="1" FixedLength="false" Unicode="true" />
         </EntityType>
-        <EntityType Name="Kaynaklar2">
+        <EntityType Name="zKaynaklar">
           <Key>
             <PropertyRef Name="kaynak_id" />
           </Key>
@@ -128,7 +126,6 @@ warning 6002: The table/view 'Kutuphane Otomasyonu_2.dbo.Personel' does not have
           <Property Name="kaynak_yazar" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="kaynak_yayinevi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="kaynak_sayfasayisi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="kaynak_basımtarihi" Type="DateTime" Precision="3" />
         </EntityType>
       </Schema>
     </edmx:ConceptualModels>
@@ -164,10 +161,9 @@ warning 6002: The table/view 'Kutuphane Otomasyonu_2.dbo.Personel' does not have
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-          <EntitySetMapping Name="Kaynaklar2">
-            <EntityTypeMapping TypeName="Model.Kaynaklar2">
-              <MappingFragment StoreEntitySet="Kaynaklar2">
-                <ScalarProperty Name="kaynak_basımtarihi" ColumnName="kaynak_basımtarihi" />
+          <EntitySetMapping Name="zKaynaklar">
+            <EntityTypeMapping TypeName="Model.zKaynaklar">
+              <MappingFragment StoreEntitySet="zKaynaklar">
                 <ScalarProperty Name="kaynak_sayfasayisi" ColumnName="kaynak_sayfasayisi" />
                 <ScalarProperty Name="kaynak_yayinevi" ColumnName="kaynak_yayinevi" />
                 <ScalarProperty Name="kaynak_yazar" ColumnName="kaynak_yazar" />

@@ -20,7 +20,7 @@ namespace Kutuphane_Otomasyonu_2
         Kutuphane_Otomasyonu_2Entities db = new Kutuphane_Otomasyonu_2Entities();
         private void KaynakListeForm_Load(object sender, EventArgs e)
         {
-            var kaynaklar = db.Kaynaklar2.ToList(); 
+            var kaynaklar = db.zKaynaklar.ToList(); 
             dataGridView1.DataSource = kaynaklar.ToList();
 
         }

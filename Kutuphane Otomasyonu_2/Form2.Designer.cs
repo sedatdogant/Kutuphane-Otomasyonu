@@ -123,6 +123,7 @@
             this.silKitapbtn.TabIndex = 9;
             this.silKitapbtn.Text = "Kitap Sil";
             this.silKitapbtn.UseVisualStyleBackColor = true;
+            this.silKitapbtn.Click += new System.EventHandler(this.silKitapbtn_Click);
             // 
             // guncelleKitapbtn
             // 
@@ -133,6 +134,7 @@
             this.guncelleKitapbtn.TabIndex = 8;
             this.guncelleKitapbtn.Text = "Kitap Güncelle";
             this.guncelleKitapbtn.UseVisualStyleBackColor = true;
+            this.guncelleKitapbtn.Click += new System.EventHandler(this.guncelleKitapbtn_Click);
             // 
             // ekleKitapbtn
             // 

@@ -108,5 +108,19 @@ namespace Kutuphane_Otomasyonu_2
             kaynakEkle.MdiParent = this;
             kaynakEkle.Show();
         }
+
+        private void silKitapbtn_Click(object sender, EventArgs e)
+        {
+            KaynakSilForm kaynakSil = new KaynakSilForm();
+            kaynakSil.MdiParent = this;
+            kaynakSil.Show();
+        }
+
+        private void guncelleKitapbtn_Click(object sender, EventArgs e)
+        {
+            KaynakGuncelle kaynakGuncelle = new KaynakGuncelle();
+            kaynakGuncelle.MdiParent = this;
+            kaynakGuncelle.Show();
+        }
     }
 }

@@ -20,3 +20,5 @@ C:\Users\leose\source\repos\Kutuphane Otomasyonu_2\Kutuphane Otomasyonu_2\obj\De
 C:\Users\leose\source\repos\Kutuphane Otomasyonu_2\Kutuphane Otomasyonu_2\obj\Debug\Kutuphane_Otomasyonu_2.Kullanici.kullaniciGuncelle.resources
 C:\Users\leose\source\repos\Kutuphane Otomasyonu_2\Kutuphane Otomasyonu_2\obj\Debug\Kutuphane_Otomasyonu_2.KaynakListeForm.resources
 C:\Users\leose\source\repos\Kutuphane Otomasyonu_2\Kutuphane Otomasyonu_2\obj\Debug\Kutuphane_Otomasyonu_2.Kaynaklar_Kitaplar.KaynakEkleForm.resources
+C:\Users\leose\source\repos\Kutuphane Otomasyonu_2\Kutuphane Otomasyonu_2\obj\Debug\Kutuphane_Otomasyonu_2.Kaynaklar_Kitaplar.KaynakSilForm.resources
+C:\Users\leose\source\repos\Kutuphane Otomasyonu_2\Kutuphane Otomasyonu_2\obj\Debug\Kutuphane_Otomasyonu_2.Kaynaklar_Kitaplar.KaynakGuncelle.resources
