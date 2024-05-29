@@ -82,6 +82,12 @@
     <Compile Include="Kullanici\kullaniciListeForm.Designer.cs">
       <DependentUpon>kullaniciListeForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Kullanici\KullaniciSil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kullanici\KullaniciSil.Designer.cs">
+      <DependentUpon>KullaniciSil.cs</DependentUpon>
+    </Compile>
     <Compile Include="Model1.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -113,6 +119,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Kullanici\kullaniciListeForm.resx">
       <DependentUpon>kullaniciListeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kullanici\KullaniciSil.resx">
+      <DependentUpon>KullaniciSil.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

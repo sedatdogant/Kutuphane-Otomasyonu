@@ -59,5 +59,14 @@ namespace Kutuphane_Otomasyonu_2
         {
 
         }
+
+        private void silKullanicibtn_Click(object sender, EventArgs e)
+        {
+            KullaniciSil kullaniciSil = new KullaniciSil();
+            kullaniciSil.MdiParent = this;
+            kullaniciSil.Show();
+
+            //nesne olusturduk nesnenin babası bu dedik nesneyi göster dedik.
+        }
     }
 }
