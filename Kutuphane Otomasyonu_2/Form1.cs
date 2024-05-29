@@ -32,6 +32,9 @@ namespace Kutuphane_Otomasyonu_2
             else
             {
                 MessageBox.Show("Giriş Başarılı");
+                IslemPaneli panel  = new IslemPaneli();
+                panel.Show();
+                this.Hide();
             }
 
         }
