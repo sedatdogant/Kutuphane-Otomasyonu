@@ -12,6 +12,7 @@ namespace Kutuphane_Otomasyonu_2
 {
     public partial class IslemPaneli : Form
     {
+        Kutuphane_Otomasyonu_2Entities db = new Kutuphane_Otomasyonu_2Entities();
         public IslemPaneli()
         {
             InitializeComponent();
@@ -22,6 +23,7 @@ namespace Kutuphane_Otomasyonu_2
             ekleKullanicibtn.Visible = false;
             guncelleKullanicibtn.Visible = false;
             silKullanicibtn.Visible=false;
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -38,7 +40,11 @@ namespace Kutuphane_Otomasyonu_2
                 guncelleKullanicibtn.Visible = false;
                 silKullanicibtn.Visible = false;
             }
-
+            
+            KullaniciListe listeForm = new KullaniciListe();
+            listeForm.MdiParent = this; //IslemPanelindeki formu KullaniciListe Formuna attık.
+            listeForm.Show();
+            
         }
     }
 }

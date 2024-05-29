@@ -56,7 +56,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(236, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1001, 67);
+            this.panel2.Size = new System.Drawing.Size(784, 67);
             this.panel2.TabIndex = 1;
             // 
             // button1
@@ -104,10 +104,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1237, 604);
+            this.ClientSize = new System.Drawing.Size(1020, 604);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.IsMdiContainer = true;
             this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.Name = "IslemPaneli";
             this.Text = "Form2";
