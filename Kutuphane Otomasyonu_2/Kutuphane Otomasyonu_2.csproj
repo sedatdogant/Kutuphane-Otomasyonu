@@ -70,11 +70,17 @@
     <Compile Include="Kullanicilar.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
-    <Compile Include="KullaniciListe.cs">
+    <Compile Include="Kullanici\kullaniciEkle.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="KullaniciListe.Designer.cs">
-      <DependentUpon>KullaniciListe.cs</DependentUpon>
+    <Compile Include="Kullanici\kullaniciEkle.Designer.cs">
+      <DependentUpon>kullaniciEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kullanici\kullaniciListeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kullanici\kullaniciListeForm.Designer.cs">
+      <DependentUpon>kullaniciListeForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Model1.Context.cs">
       <AutoGen>True</AutoGen>
@@ -102,8 +108,11 @@
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="KullaniciListe.resx">
-      <DependentUpon>KullaniciListe.cs</DependentUpon>
+    <EmbeddedResource Include="Kullanici\kullaniciEkle.resx">
+      <DependentUpon>kullaniciEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kullanici\kullaniciListeForm.resx">
+      <DependentUpon>kullaniciListeForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -150,5 +159,6 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

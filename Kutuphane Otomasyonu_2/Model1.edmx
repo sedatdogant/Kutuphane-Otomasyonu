@@ -18,6 +18,7 @@ warning 6002: The table/view 'Kutuphane Otomasyonu_2.dbo.Kullanicilar' does not 
           <Property Name="kullanici_mail" Type="nvarchar" MaxLength="50" />
           <Property Name="kullanici_tel" Type="nvarchar" MaxLength="11" />
           <Property Name="kullanici_ceza" Type="float" />
+          <Property Name="kullanici_cinsiyet" Type="nvarchar" MaxLength="1" />
         </EntityType>
         <!--Errors Found During Generation:
 warning 6002: The table/view 'Kutuphane Otomasyonu_2.dbo.Personel' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
@@ -43,7 +44,8 @@ warning 6002: The table/view 'Kutuphane Otomasyonu_2.dbo.Personel' does not have
     [Kullanicilar].[kullanici_tc] AS [kullanici_tc], 
     [Kullanicilar].[kullanici_mail] AS [kullanici_mail], 
     [Kullanicilar].[kullanici_tel] AS [kullanici_tel], 
-    [Kullanicilar].[kullanici_ceza] AS [kullanici_ceza]
+    [Kullanicilar].[kullanici_ceza] AS [kullanici_ceza], 
+    [Kullanicilar].[kullanici_cinsiyet] AS [kullanici_cinsiyet]
     FROM [dbo].[Kullanicilar] AS [Kullanicilar]</DefiningQuery>
           </EntitySet>
           <EntitySet Name="Personel" EntityType="Self.Personel" store:Type="Tables" store:Schema="dbo">
@@ -91,6 +93,7 @@ warning 6002: The table/view 'Kutuphane Otomasyonu_2.dbo.Personel' does not have
           <Property Name="kullanici_mail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="kullanici_tel" Type="String" MaxLength="11" FixedLength="false" Unicode="true" />
           <Property Name="kullanici_ceza" Type="Double" />
+          <Property Name="kullanici_cinsiyet" Type="String" MaxLength="1" FixedLength="false" Unicode="true" />
         </EntityType>
       </Schema>
     </edmx:ConceptualModels>
@@ -115,6 +118,7 @@ warning 6002: The table/view 'Kutuphane Otomasyonu_2.dbo.Personel' does not have
           <EntitySetMapping Name="Kullanicilar">
             <EntityTypeMapping TypeName="Model.Kullanicilar">
               <MappingFragment StoreEntitySet="Kullanicilar">
+                <ScalarProperty Name="kullanici_cinsiyet" ColumnName="kullanici_cinsiyet" />
                 <ScalarProperty Name="kullanici_ceza" ColumnName="kullanici_ceza" />
                 <ScalarProperty Name="kullanici_tel" ColumnName="kullanici_tel" />
                 <ScalarProperty Name="kullanici_mail" ColumnName="kullanici_mail" />

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Kutuphane_Otomasyonu_2.Kullanici;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -41,10 +42,22 @@ namespace Kutuphane_Otomasyonu_2
                 silKullanicibtn.Visible = false;
             }
             
-            KullaniciListe listeForm = new KullaniciListe();
+            kullaniciListeForm listeForm = new kullaniciListeForm();
             listeForm.MdiParent = this; //IslemPanelindeki formu KullaniciListe Formuna attık.
             listeForm.Show();
             
+        }
+
+        private void ekleKullanicibtn_Click(object sender, EventArgs e)
+        {
+            kullaniciEkle ekleForm = new kullaniciEkle();
+            ekleForm.MdiParent = this;
+            ekleForm.Show();
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

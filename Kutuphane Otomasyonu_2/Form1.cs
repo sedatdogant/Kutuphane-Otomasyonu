@@ -25,17 +25,23 @@ namespace Kutuphane_Otomasyonu_2
 
             var personel = db.Personel.Where(x => x.personel_kullaniciAd.Equals(gelenAd) && x.personel_sifre.Equals(gelenSifre));
 
-            if(personel == null)
+            if(personel != null)
             {
-                MessageBox.Show("Giriş Başarısız");
-            }
-            else
-            {
+                
                 MessageBox.Show("Giriş Başarılı");
-                IslemPaneli panel  = new IslemPaneli();
+                IslemPaneli panel = new IslemPaneli();
                 panel.Show();
                 this.Hide();
             }
+            else
+            {
+                MessageBox.Show("Giriş Başarısız");
+            }
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
 
         }
     }

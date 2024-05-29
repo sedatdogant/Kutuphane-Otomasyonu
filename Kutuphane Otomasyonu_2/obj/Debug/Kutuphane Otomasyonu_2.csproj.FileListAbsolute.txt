@@ -14,4 +14,5 @@ C:\Users\leose\source\repos\Kutuphane Otomasyonu_2\Kutuphane Otomasyonu_2\bin\De
 C:\Users\leose\source\repos\Kutuphane Otomasyonu_2\Kutuphane Otomasyonu_2\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\leose\source\repos\Kutuphane Otomasyonu_2\Kutuphane Otomasyonu_2\obj\Debug\Kutuphan.FEDBF722.Up2Date
 C:\Users\leose\source\repos\Kutuphane Otomasyonu_2\Kutuphane Otomasyonu_2\obj\Debug\Kutuphane_Otomasyonu_2.IslemPaneli.resources
-C:\Users\leose\source\repos\Kutuphane Otomasyonu_2\Kutuphane Otomasyonu_2\obj\Debug\Kutuphane_Otomasyonu_2.KullaniciListe.resources
+C:\Users\leose\source\repos\Kutuphane Otomasyonu_2\Kutuphane Otomasyonu_2\obj\Debug\Kutuphane_Otomasyonu_2.kullaniciListeForm.resources
+C:\Users\leose\source\repos\Kutuphane Otomasyonu_2\Kutuphane Otomasyonu_2\obj\Debug\Kutuphane_Otomasyonu_2.Kullanici.kullaniciEkle.resources

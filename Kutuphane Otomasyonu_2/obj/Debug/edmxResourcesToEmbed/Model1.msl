@@ -18,6 +18,7 @@
     <EntitySetMapping Name="Kullanicilar">
       <EntityTypeMapping TypeName="Model.Kullanicilar">
         <MappingFragment StoreEntitySet="Kullanicilar">
+          <ScalarProperty Name="kullanici_cinsiyet" ColumnName="kullanici_cinsiyet" />
           <ScalarProperty Name="kullanici_ceza" ColumnName="kullanici_ceza" />
           <ScalarProperty Name="kullanici_tel" ColumnName="kullanici_tel" />
           <ScalarProperty Name="kullanici_mail" ColumnName="kullanici_mail" />

@@ -28,5 +28,6 @@
     <Property Name="kullanici_mail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
     <Property Name="kullanici_tel" Type="String" MaxLength="11" FixedLength="false" Unicode="true" />
     <Property Name="kullanici_ceza" Type="Double" />
+    <Property Name="kullanici_cinsiyet" Type="String" MaxLength="1" FixedLength="false" Unicode="true" />
   </EntityType>
 </Schema>
