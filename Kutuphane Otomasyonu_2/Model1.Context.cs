@@ -26,5 +26,6 @@ namespace Kutuphane_Otomasyonu_2
         }
     
         public virtual DbSet<Personel> Personel { get; set; }
+        public virtual DbSet<Kullanicilar> Kullanicilar { get; set; }
     }
 }
