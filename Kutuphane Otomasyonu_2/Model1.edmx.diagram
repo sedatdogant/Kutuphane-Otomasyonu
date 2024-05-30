@@ -6,7 +6,13 @@
     <edmx:Diagrams>
       <Diagram DiagramId="ad8aab6da01d4be590ed208635be1e41" Name="Diagram1">
         <EntityTypeShape EntityType="Model.Personel" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
-        </Diagram>
+        <EntityTypeShape EntityType="Model.Kullanicilar" Width="1.5" PointX="3.375" PointY="0.75" />
+        <EntityTypeShape EntityType="Model.zKaynaklar" Width="1.5" PointX="5.5" PointY="2.5" />
+        <EntityTypeShape EntityType="Model.sysdiagrams" Width="1.5" PointX="3" PointY="4" />
+        <EntityTypeShape EntityType="Model.zKayitlar" Width="1.5" PointX="8.625" PointY="0.625" />
+        <AssociationConnector Association="Model.FK_zKayitlar_Kullanicilar" />
+        <AssociationConnector Association="Model.FK_zKayitlar_zKaynaklar" />
+      </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
 </edmx:Edmx>

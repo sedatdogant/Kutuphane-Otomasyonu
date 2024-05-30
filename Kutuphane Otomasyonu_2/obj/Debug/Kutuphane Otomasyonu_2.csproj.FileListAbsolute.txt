@@ -23,20 +23,3 @@ C:\Users\leose\source\repos\Kutuphane Otomasyonu_2\Kutuphane Otomasyonu_2\obj\De
 C:\Users\leose\source\repos\Kutuphane Otomasyonu_2\Kutuphane Otomasyonu_2\obj\Debug\Kutuphane_Otomasyonu_2.Kaynaklar_Kitaplar.KaynakSilForm.resources
 C:\Users\leose\source\repos\Kutuphane Otomasyonu_2\Kutuphane Otomasyonu_2\obj\Debug\Kutuphane_Otomasyonu_2.Kaynaklar_Kitaplar.KaynakGuncelle.resources
 C:\Users\leose\source\repos\Kutuphane Otomasyonu_2\Kutuphane Otomasyonu_2\obj\Debug\Kutuphane_Otomasyonu_2.Kayıt.oduncVer.resources
-C:\Users\leose\OneDrive\Belgeler\GitHub\Kutuphane-Otomasyonu\Kutuphane Otomasyonu_2\obj\Debug\Kutuphane Otomasyonu_2.csproj.AssemblyReference.cache
-C:\Users\leose\OneDrive\Belgeler\GitHub\Kutuphane-Otomasyonu\Kutuphane Otomasyonu_2\obj\Debug\Kutuphane_Otomasyonu_2.Form1.resources
-C:\Users\leose\OneDrive\Belgeler\GitHub\Kutuphane-Otomasyonu\Kutuphane Otomasyonu_2\obj\Debug\Kutuphane_Otomasyonu_2.IslemPaneli.resources
-C:\Users\leose\OneDrive\Belgeler\GitHub\Kutuphane-Otomasyonu\Kutuphane Otomasyonu_2\obj\Debug\Kutuphane_Otomasyonu_2.Kaynaklar_Kitaplar.KaynakEkleForm.resources
-C:\Users\leose\OneDrive\Belgeler\GitHub\Kutuphane-Otomasyonu\Kutuphane Otomasyonu_2\obj\Debug\Kutuphane_Otomasyonu_2.Kaynaklar_Kitaplar.KaynakGuncelle.resources
-C:\Users\leose\OneDrive\Belgeler\GitHub\Kutuphane-Otomasyonu\Kutuphane Otomasyonu_2\obj\Debug\Kutuphane_Otomasyonu_2.KaynakListeForm.resources
-C:\Users\leose\OneDrive\Belgeler\GitHub\Kutuphane-Otomasyonu\Kutuphane Otomasyonu_2\obj\Debug\Kutuphane_Otomasyonu_2.Kaynaklar_Kitaplar.KaynakSilForm.resources
-C:\Users\leose\OneDrive\Belgeler\GitHub\Kutuphane-Otomasyonu\Kutuphane Otomasyonu_2\obj\Debug\Kutuphane_Otomasyonu_2.Kayıt.OduncVer.resources
-C:\Users\leose\OneDrive\Belgeler\GitHub\Kutuphane-Otomasyonu\Kutuphane Otomasyonu_2\obj\Debug\Kutuphane_Otomasyonu_2.Kullanici.kullaniciEkle.resources
-C:\Users\leose\OneDrive\Belgeler\GitHub\Kutuphane-Otomasyonu\Kutuphane Otomasyonu_2\obj\Debug\Kutuphane_Otomasyonu_2.Kullanici.kullaniciGuncelle.resources
-C:\Users\leose\OneDrive\Belgeler\GitHub\Kutuphane-Otomasyonu\Kutuphane Otomasyonu_2\obj\Debug\Kutuphane_Otomasyonu_2.kullaniciListeForm.resources
-C:\Users\leose\OneDrive\Belgeler\GitHub\Kutuphane-Otomasyonu\Kutuphane Otomasyonu_2\obj\Debug\Kutuphane_Otomasyonu_2.Kullanici.KullaniciSil.resources
-C:\Users\leose\OneDrive\Belgeler\GitHub\Kutuphane-Otomasyonu\Kutuphane Otomasyonu_2\obj\Debug\Kutuphane_Otomasyonu_2.Properties.Resources.resources
-C:\Users\leose\OneDrive\Belgeler\GitHub\Kutuphane-Otomasyonu\Kutuphane Otomasyonu_2\obj\Debug\Kutuphane Otomasyonu_2.csproj.GenerateResource.cache
-C:\Users\leose\OneDrive\Belgeler\GitHub\Kutuphane-Otomasyonu\Kutuphane Otomasyonu_2\obj\Debug\Kutuphane Otomasyonu_2.csproj.CoreCompileInputs.cache
-C:\Users\leose\OneDrive\Belgeler\GitHub\Kutuphane-Otomasyonu\Kutuphane Otomasyonu_2\obj\Debug\Kutuphane Otomasyonu_2.exe
-C:\Users\leose\OneDrive\Belgeler\GitHub\Kutuphane-Otomasyonu\Kutuphane Otomasyonu_2\obj\Debug\Kutuphane Otomasyonu_2.pdb

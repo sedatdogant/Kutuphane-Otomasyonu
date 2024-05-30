@@ -15,5 +15,89 @@
   </EntityType>
   <EntityContainer Name="Kutuphane_Otomasyonu_2Entities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="Personel" EntityType="Self.Personel" />
+    <EntitySet Name="Kullanicilar" EntityType="Model.Kullanicilar" />
+    <EntitySet Name="zKaynaklar" EntityType="Model.zKaynaklar" />
+    <EntitySet Name="sysdiagrams" EntityType="Model.sysdiagrams" />
+    <EntitySet Name="zKayitlar" EntityType="Model.zKayitlar" />
+    <AssociationSet Name="FK_zKayitlar_Kullanicilar" Association="Model.FK_zKayitlar_Kullanicilar">
+      <End Role="Kullanicilar" EntitySet="Kullanicilar" />
+      <End Role="zKayitlar" EntitySet="zKayitlar" />
+    </AssociationSet>
+    <AssociationSet Name="FK_zKayitlar_zKaynaklar" Association="Model.FK_zKayitlar_zKaynaklar">
+      <End Role="zKaynaklar" EntitySet="zKaynaklar" />
+      <End Role="zKayitlar" EntitySet="zKayitlar" />
+    </AssociationSet>
   </EntityContainer>
+  <EntityType Name="Kullanicilar">
+    <Key>
+      <PropertyRef Name="kullanici_id" />
+    </Key>
+    <Property Name="kullanici_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="kullanici_ad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="kullanici_soyad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="kullanici_tc" Type="String" MaxLength="11" FixedLength="false" Unicode="true" />
+    <Property Name="kullanici_mail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="kullanici_tel" Type="String" MaxLength="11" FixedLength="false" Unicode="true" />
+    <Property Name="kullanici_ceza" Type="Double" />
+    <Property Name="kullanici_cinsiyet" Type="String" MaxLength="1" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="zKayitlar" Relationship="Model.FK_zKayitlar_Kullanicilar" FromRole="Kullanicilar" ToRole="zKayitlar" />
+  </EntityType>
+  <EntityType Name="zKaynaklar">
+    <Key>
+      <PropertyRef Name="kaynak_id" />
+    </Key>
+    <Property Name="kaynak_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="kaynak_ad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="kaynak_yazar" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="kaynak_yayinevi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="kaynak_sayfasayisi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="zKayitlar" Relationship="Model.FK_zKayitlar_zKaynaklar" FromRole="zKaynaklar" ToRole="zKayitlar" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="zKayitlar">
+    <Key>
+      <PropertyRef Name="kayit_id" />
+    </Key>
+    <Property Name="kayit_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="kullanici_id" Type="Int32" />
+    <Property Name="kitap_id" Type="Int32" />
+    <Property Name="alis_tarih" Type="DateTime" Precision="3" />
+    <Property Name="son_tarih" Type="DateTime" Precision="3" />
+    <Property Name="durum" Type="Boolean" />
+    <NavigationProperty Name="Kullanicilar" Relationship="Model.FK_zKayitlar_Kullanicilar" FromRole="zKayitlar" ToRole="Kullanicilar" />
+    <NavigationProperty Name="zKaynaklar" Relationship="Model.FK_zKayitlar_zKaynaklar" FromRole="zKayitlar" ToRole="zKaynaklar" />
+  </EntityType>
+  <Association Name="FK_zKayitlar_Kullanicilar">
+    <End Type="Model.Kullanicilar" Role="Kullanicilar" Multiplicity="0..1" />
+    <End Type="Model.zKayitlar" Role="zKayitlar" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kullanicilar">
+        <PropertyRef Name="kullanici_id" />
+      </Principal>
+      <Dependent Role="zKayitlar">
+        <PropertyRef Name="kullanici_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_zKayitlar_zKaynaklar">
+    <End Type="Model.zKaynaklar" Role="zKaynaklar" Multiplicity="0..1" />
+    <End Type="Model.zKayitlar" Role="zKayitlar" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="zKaynaklar">
+        <PropertyRef Name="kaynak_id" />
+      </Principal>
+      <Dependent Role="zKayitlar">
+        <PropertyRef Name="kitap_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
 </Schema>

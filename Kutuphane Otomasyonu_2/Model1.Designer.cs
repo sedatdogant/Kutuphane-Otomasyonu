@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'C:\Users\leose\OneDrive\Belgeler\GitHub\Kutuphane-Otomasyonu\Kutuphane Otomasyonu_2\Model1.edmx'. 
+﻿// T4 code generation is enabled for model 'C:\Users\leose\source\repos\Kutuphane Otomasyonu_2\Kutuphane Otomasyonu_2\Model1.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.
