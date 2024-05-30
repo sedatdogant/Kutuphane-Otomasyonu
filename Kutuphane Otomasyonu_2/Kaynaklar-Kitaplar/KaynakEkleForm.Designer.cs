@@ -106,6 +106,7 @@
             this.adKaynaktxt.Name = "adKaynaktxt";
             this.adKaynaktxt.Size = new System.Drawing.Size(200, 34);
             this.adKaynaktxt.TabIndex = 7;
+            this.adKaynaktxt.TextChanged += new System.EventHandler(this.adKaynaktxt_TextChanged);
             // 
             // yazarKaynaktxt
             // 

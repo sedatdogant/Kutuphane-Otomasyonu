@@ -23,3 +23,6 @@ C:\Users\leose\source\repos\Kutuphane Otomasyonu_2\Kutuphane Otomasyonu_2\obj\De
 C:\Users\leose\source\repos\Kutuphane Otomasyonu_2\Kutuphane Otomasyonu_2\obj\Debug\Kutuphane_Otomasyonu_2.Kaynaklar_Kitaplar.KaynakSilForm.resources
 C:\Users\leose\source\repos\Kutuphane Otomasyonu_2\Kutuphane Otomasyonu_2\obj\Debug\Kutuphane_Otomasyonu_2.Kaynaklar_Kitaplar.KaynakGuncelle.resources
 C:\Users\leose\source\repos\Kutuphane Otomasyonu_2\Kutuphane Otomasyonu_2\obj\Debug\Kutuphane_Otomasyonu_2.Kayıt.oduncVer.resources
+C:\Users\rumeysa\Desktop\Kutuphane-Otomasyonu\Kutuphane Otomasyonu_2\obj\Debug\Kutuphane Otomasyonu_2.csproj.AssemblyReference.cache
+C:\Users\rumeysa\Desktop\Kutuphane-Otomasyonu\Kutuphane Otomasyonu_2\obj\Debug\Kutuphane Otomasyonu_2.exe
+C:\Users\rumeysa\Desktop\Kutuphane-Otomasyonu\Kutuphane Otomasyonu_2\obj\Debug\Kutuphane Otomasyonu_2.pdb

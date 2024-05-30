@@ -92,11 +92,11 @@
     <Compile Include="Kaynaklar-Kitaplar\KaynakListeForm.Designer.cs">
       <DependentUpon>KaynakListeForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Kayıt\OduncVer.cs">
+    <Compile Include="Kayıt\OduncForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Kayıt\OduncVer.Designer.cs">
-      <DependentUpon>OduncVer.cs</DependentUpon>
+    <Compile Include="Kayıt\OduncForm.Designer.cs">
+      <DependentUpon>OduncForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Kullanicilar.cs">
       <DependentUpon>Model1.tt</DependentUpon>
@@ -172,8 +172,8 @@
     <EmbeddedResource Include="Kaynaklar-Kitaplar\KaynakSilForm.resx">
       <DependentUpon>KaynakSilForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Kayıt\OduncVer.resx">
-      <DependentUpon>OduncVer.cs</DependentUpon>
+    <EmbeddedResource Include="Kayıt\OduncForm.resx">
+      <DependentUpon>OduncForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Kullanici\kullaniciEkle.resx">
       <DependentUpon>kullaniciEkle.cs</DependentUpon>

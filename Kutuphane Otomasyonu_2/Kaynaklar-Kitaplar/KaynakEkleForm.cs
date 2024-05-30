@@ -47,5 +47,10 @@ namespace Kutuphane_Otomasyonu_2.Kaynaklar_Kitaplar
         {
 
         }
+
+        private void adKaynaktxt_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
