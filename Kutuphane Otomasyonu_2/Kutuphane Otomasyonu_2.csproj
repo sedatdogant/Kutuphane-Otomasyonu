@@ -92,6 +92,12 @@
     <Compile Include="Kaynaklar-Kitaplar\KaynakListeForm.Designer.cs">
       <DependentUpon>KaynakListeForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Kayıt\gerialform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kayıt\gerialform.Designer.cs">
+      <DependentUpon>gerialform.cs</DependentUpon>
+    </Compile>
     <Compile Include="Kayıt\OduncForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -156,6 +162,7 @@
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
@@ -171,6 +178,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Kaynaklar-Kitaplar\KaynakSilForm.resx">
       <DependentUpon>KaynakSilForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kayıt\gerialform.resx">
+      <DependentUpon>gerialform.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Kayıt\OduncForm.resx">
       <DependentUpon>OduncForm.cs</DependentUpon>

@@ -5,10 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{35AB4DEC-18B2-496E-AC9B-B67AA70B403E}|Kutuphane Otomasyonu_2\\Kutuphane Otomasyonu_2.csproj|c:\\users\\rumeysa\\documents\\github\\kutuphane-otomasyonu\\kutuphane otomasyonu_2\\kay\u0131t\\oduncform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35AB4DEC-18B2-496E-AC9B-B67AA70B403E}|Kutuphane Otomasyonu_2\\Kutuphane Otomasyonu_2.csproj|solutionrelative:kutuphane otomasyonu_2\\kay\u0131t\\oduncform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35AB4DEC-18B2-496E-AC9B-B67AA70B403E}|Kutuphane Otomasyonu_2\\Kutuphane Otomasyonu_2.csproj|C:\\Users\\rumeysa\\Documents\\GitHub\\Kutuphane-Otomasyonu\\kutuphane otomasyonu_2\\kay\u0131t\\oduncform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{35AB4DEC-18B2-496E-AC9B-B67AA70B403E}|Kutuphane Otomasyonu_2\\Kutuphane Otomasyonu_2.csproj|solutionrelative:kutuphane otomasyonu_2\\kay\u0131t\\oduncform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,22 +24,10 @@
               "RelativeDocumentMoniker": "Kutuphane Otomasyonu_2\\Kay\u0131t\\OduncForm.cs",
               "ToolTip": "C:\\Users\\rumeysa\\Documents\\GitHub\\Kutuphane-Otomasyonu\\Kutuphane Otomasyonu_2\\Kay\u0131t\\OduncForm.cs",
               "RelativeToolTip": "Kutuphane Otomasyonu_2\\Kay\u0131t\\OduncForm.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAwwGIAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T16:02:20.537Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-05-31T14:39:09.738Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OduncForm.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\rumeysa\\Documents\\GitHub\\Kutuphane-Otomasyonu\\Kutuphane Otomasyonu_2\\Kay\u0131t\\OduncForm.cs",
-              "RelativeDocumentMoniker": "Kutuphane Otomasyonu_2\\Kay\u0131t\\OduncForm.cs",
-              "ToolTip": "C:\\Users\\rumeysa\\Documents\\GitHub\\Kutuphane-Otomasyonu\\Kutuphane Otomasyonu_2\\Kay\u0131t\\OduncForm.cs [Tasar\u0131m]",
-              "RelativeToolTip": "Kutuphane Otomasyonu_2\\Kay\u0131t\\OduncForm.cs [Tasar\u0131m]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T15:56:34.922Z"
             }
           ]
         }

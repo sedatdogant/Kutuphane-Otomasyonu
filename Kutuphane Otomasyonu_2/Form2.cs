@@ -13,14 +13,25 @@ using System.Windows.Forms;
 
 namespace Kutuphane_Otomasyonu_2
 {
+    /// <summary>
+    /// IslemPaneli sınıfı, kütüphane otomasyonu için işlem panelini temsil eder.
+    /// </summary>
     public partial class IslemPaneli : Form
     {
         Kutuphane_Otomasyonu_2Entities db = new Kutuphane_Otomasyonu_2Entities();
+        /// <summary>
+        /// IslemPaneli sınıfının kurucusu. Form bileşenlerini başlatır.
+        /// </summary>
         public IslemPaneli()
         {
             InitializeComponent();
         }
-
+        /// <summary>
+        /// Form yüklendiğinde tetiklenen olay.
+        /// Kullanıcı ve kitap butonlarını gizler.
+        /// </summary>
+        /// <param name="sender">Olayı tetikleyen nesne</param>
+        /// <param name="e">Olay verileri</param>
         private void IslemPaneli_Load(object sender, EventArgs e)
         {
             //kullanıcı butonları girişte kapalı
@@ -34,7 +45,12 @@ namespace Kutuphane_Otomasyonu_2
             silKitapbtn.Visible = false;
 
         }
-
+        /// <summary>
+        /// Kullanıcı işlemleri butonuna tıklanıldığında tetiklenen olay.
+        /// Kullanıcı butonlarını gösterir veya gizler ve kullanıcı listeleme formunu açar.
+        /// </summary>
+        /// <param name="sender">Olayı tetikleyen nesne</param>
+        /// <param name="e">Olay verileri</param>
         private void button1_Click(object sender, EventArgs e)
         {
             if(ekleKullanicibtn.Visible == false)
@@ -55,7 +71,12 @@ namespace Kutuphane_Otomasyonu_2
             listeForm.Show();
             
         }
-
+        /// <summary>
+        /// Kullanıcı ekleme butonuna tıklanıldığında tetiklenen olay.
+        /// Kullanıcı ekleme formunu açar.
+        /// </summary>
+        /// <param name="sender">Olayı tetikleyen nesne</param>
+        /// <param name="e">Olay verileri</param>
         private void ekleKullanicibtn_Click(object sender, EventArgs e)
         {
             kullaniciEkle ekleForm = new kullaniciEkle();
@@ -67,7 +88,12 @@ namespace Kutuphane_Otomasyonu_2
         {
 
         }
-
+        /// <summary>
+        /// Kullanıcı silme butonuna tıklanıldığında tetiklenen olay.
+        /// Kullanıcı silme formunu açar.
+        /// </summary>
+        /// <param name="sender">Olayı tetikleyen nesne</param>
+        /// <param name="e">Olay verileri</param>
         private void silKullanicibtn_Click(object sender, EventArgs e)
         {
             KullaniciSil kullaniciSil = new KullaniciSil();
@@ -76,14 +102,24 @@ namespace Kutuphane_Otomasyonu_2
 
             //nesne olusturduk nesnenin babası bu dedik nesneyi göster dedik.
         }
-
+        /// <summary>
+        /// Kullanıcı güncelleme butonuna tıklanıldığında tetiklenen olay.
+        /// Kullanıcı güncelleme formunu açar.
+        /// </summary>
+        /// <param name="sender">Olayı tetikleyen nesne</param>
+        /// <param name="e">Olay verileri</param>
         private void guncelleKullanicibtn_Click(object sender, EventArgs e)
         {
             kullaniciGuncelle kullaniciGuncelle = new kullaniciGuncelle();
             kullaniciGuncelle.MdiParent = this;
             kullaniciGuncelle.Show();
         }
-
+        /// <summary>
+        /// Kitap işlemleri butonuna tıklanıldığında tetiklenen olay.
+        /// Kitap butonlarını gösterir veya gizler ve kitap listeleme formunu açar.
+        /// </summary>
+        /// <param name="sender">Olayı tetikleyen nesne</param>
+        /// <param name="e">Olay verileri</param>
         private void button5_Click(object sender, EventArgs e)
         {
             if(ekleKitapbtn.Visible == false)
@@ -102,20 +138,36 @@ namespace Kutuphane_Otomasyonu_2
             kaynakListe.MdiParent = this;
             kaynakListe.Show();
         }
-
+        /// <summary>
+        /// Kitap ekleme butonuna tıklanıldığında tetiklenen olay.
+        /// Kitap ekleme formunu açar.
+        /// </summary>
+        /// <param name="sender">Olayı tetikleyen nesne</param>
+        /// <param name="e">Olay verileri</param>
         private void ekleKitapbtn_Click(object sender, EventArgs e)
         {
             KaynakEkleForm kaynakEkle = new KaynakEkleForm();
             kaynakEkle.MdiParent = this;
             kaynakEkle.Show();
         }
-
+        /// <summary>
+        /// Kitap silme butonuna tıklanıldığında tetiklenen olay.
+        /// Kitap silme formunu açar.
+        /// </summary>
+        /// <param name="sender">Olayı tetikleyen nesne</param>
+        /// <param name="e">Olay verileri</param>
         private void silKitapbtn_Click(object sender, EventArgs e)
         {
             KaynakSilForm kaynakSil = new KaynakSilForm();
             kaynakSil.MdiParent = this;
             kaynakSil.Show();
         }
+        /// <summary>
+        /// Kitap güncelleme butonuna tıklanıldığında tetiklenen olay.
+        /// Kitap güncelleme formunu açar.
+        /// </summary>
+        /// <param name="sender">Olayı tetikleyen nesne</param>
+        /// <param name="e">Olay verileri</param>
 
         private void guncelleKitapbtn_Click(object sender, EventArgs e)
         {
@@ -123,12 +175,30 @@ namespace Kutuphane_Otomasyonu_2
             kaynakGuncelle.MdiParent = this;
             kaynakGuncelle.Show();
         }
-
+        /// <summary>
+        /// Ödünç alma butonuna tıklanıldığında tetiklenen olay.
+        /// Ödünç formunu açar.
+        /// </summary>
+        /// <param name="sender">Olayı tetikleyen nesne</param>
+        /// <param name="e">Olay verileri</param>
         private void btn_odunc_Click(object sender, EventArgs e)
         {
             OduncForm oduncVer = new OduncForm();
             oduncVer.MdiParent = this;
             oduncVer.Show();
+        }
+        /// <summary>
+        /// Geri alma butonuna tıklanıldığında tetiklenen olay.
+        /// Geri alma formunu açar.
+        /// </summary>
+        /// <param name="sender">Olayı tetikleyen nesne</param>
+        /// <param name="e">Olay verileri</param>
+        private void button2_Click(object sender, EventArgs e)
+        {
+            gerialform geri = new gerialform();
+            geri.MdiParent = this;
+            geri.Show();
+
         }
     }
 }

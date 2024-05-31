@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.btn_odunc = new System.Windows.Forms.Button();
             this.silKitapbtn = new System.Windows.Forms.Button();
             this.guncelleKitapbtn = new System.Windows.Forms.Button();
             this.ekleKitapbtn = new System.Windows.Forms.Button();
@@ -38,14 +40,14 @@
             this.ekleKullanicibtn = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.btn_odunc = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.AutoScroll = true;
-            this.panel1.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.panel1.BackColor = System.Drawing.Color.IndianRed;
+            this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.btn_odunc);
             this.panel1.Controls.Add(this.silKitapbtn);
             this.panel1.Controls.Add(this.guncelleKitapbtn);
@@ -58,8 +60,32 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(236, 734);
+            this.panel1.Size = new System.Drawing.Size(236, 733);
             this.panel1.TabIndex = 0;
+            // 
+            // button2
+            // 
+            this.button2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button2.Location = new System.Drawing.Point(0, 576);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(236, 64);
+            this.button2.TabIndex = 11;
+            this.button2.Text = "Geri Al";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // btn_odunc
+            // 
+            this.btn_odunc.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_odunc.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_odunc.Location = new System.Drawing.Point(0, 512);
+            this.btn_odunc.Name = "btn_odunc";
+            this.btn_odunc.Size = new System.Drawing.Size(236, 64);
+            this.btn_odunc.TabIndex = 10;
+            this.btn_odunc.Text = "Ödünç Ver";
+            this.btn_odunc.UseVisualStyleBackColor = true;
+            this.btn_odunc.Click += new System.EventHandler(this.btn_odunc_Click);
             // 
             // silKitapbtn
             // 
@@ -97,7 +123,7 @@
             // button5
             // 
             this.button5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button5.ForeColor = System.Drawing.Color.Red;
+            this.button5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button5.Location = new System.Drawing.Point(0, 256);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(236, 64);
@@ -142,7 +168,7 @@
             // button1
             // 
             this.button1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button1.ForeColor = System.Drawing.Color.Red;
+            this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button1.Location = new System.Drawing.Point(0, 0);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(236, 64);
@@ -153,31 +179,20 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.panel2.BackColor = System.Drawing.Color.IndianRed;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(236, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(991, 67);
+            this.panel2.Size = new System.Drawing.Size(878, 84);
             this.panel2.TabIndex = 1;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
-            // 
-            // btn_odunc
-            // 
-            this.btn_odunc.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_odunc.ForeColor = System.Drawing.Color.Red;
-            this.btn_odunc.Location = new System.Drawing.Point(0, 512);
-            this.btn_odunc.Name = "btn_odunc";
-            this.btn_odunc.Size = new System.Drawing.Size(236, 64);
-            this.btn_odunc.TabIndex = 10;
-            this.btn_odunc.Text = "Ödünç Ver";
-            this.btn_odunc.UseVisualStyleBackColor = true;
-            this.btn_odunc.Click += new System.EventHandler(this.btn_odunc_Click);
             // 
             // IslemPaneli
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1227, 734);
+            this.BackColor = System.Drawing.Color.SeaShell;
+            this.ClientSize = new System.Drawing.Size(1114, 733);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -185,6 +200,7 @@
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "IslemPaneli";
             this.Text = "Form2";
+            this.TransparencyKey = System.Drawing.SystemColors.ControlText;
             this.Load += new System.EventHandler(this.IslemPaneli_Load);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -204,5 +220,6 @@
         private System.Windows.Forms.Button ekleKitapbtn;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button btn_odunc;
+        private System.Windows.Forms.Button button2;
     }
 }
