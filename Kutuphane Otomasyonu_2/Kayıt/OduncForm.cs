@@ -68,5 +68,31 @@ namespace Kutuphane_Otomasyonu_2.Kayıt
             var bulunanKaynaklar = db.zKaynaklar.Where(x => x.kaynak_ad.Contains(gelenAd)).ToList();
             dataGridView2.DataSource = bulunanKaynaklar;
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            //kisiyi aldik
+            string secilenKisiTc = txt_TC.Text;
+            var secilenKisi = db.Kullanicilar.Where(x => x.kullanici_tc.Equals(secilenKisiTc)).FirstOrDefault();
+
+            //kitabi aldik
+            int secilenKitapId = Convert.ToInt16(dataGridView2.CurrentRow.Cells[0].Value);
+            var secilenKitap = db.zKaynaklar.Where(x => x.kaynak_id==secilenKitapId).FirstOrDefault();
+
+            zKayitlar yeniKayit = new zKayitlar(); 
+            yeniKayit.kitap_id = secilenKitap.kaynak_id;
+            yeniKayit.kullanici_id = secilenKisi.kullanici_id;
+            yeniKayit.alis_tarih = DateTime.Today;
+            yeniKayit.son_tarih = DateTime.Today.AddDays(15);
+            db.zKayitlar.Add(yeniKayit);
+            db.SaveChanges();
+
+
+            //Listeledik(kayitlar)
+            var kayitList = db.zKayitlar.ToList();
+            dataGridView1.DataSource = kayitList.ToList();
+        }
+
+       
     }
 }
