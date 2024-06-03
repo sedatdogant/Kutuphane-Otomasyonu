@@ -1,0 +1,50 @@
+C:\Users\leose\OneDrive\Masaüstü\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\Kutuphane_Otomasyonu_2.exe.config
+C:\Users\leose\OneDrive\Masaüstü\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\Kutuphane_Otomasyonu_2.exe
+C:\Users\leose\OneDrive\Masaüstü\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\Kutuphane_Otomasyonu_2.pdb
+C:\Users\leose\OneDrive\Masaüstü\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\EntityFramework.dll
+C:\Users\leose\OneDrive\Masaüstü\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\leose\OneDrive\Masaüstü\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\EntityFramework.xml
+C:\Users\leose\OneDrive\Masaüstü\LibraryManagementSystem\LibraryManagementSystem\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\leose\OneDrive\Masaüstü\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\Kutuphane Otomasyonu_2.csproj.AssemblyReference.cache
+C:\Users\leose\OneDrive\Masaüstü\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\Kutuphane_Otomasyonu_2.addBookForm.resources
+C:\Users\leose\OneDrive\Masaüstü\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\Kutuphane_Otomasyonu_2.deleteBookForm.resources
+C:\Users\leose\OneDrive\Masaüstü\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\Kutuphane_Otomasyonu_2.updateBookForm.resources
+C:\Users\leose\OneDrive\Masaüstü\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\Kutuphane_Otomasyonu_2.eForm.resources
+C:\Users\leose\OneDrive\Masaüstü\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\Kutuphane_Otomasyonu_2.Form1.resources
+C:\Users\leose\OneDrive\Masaüstü\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\Kutuphane_Otomasyonu_2.Innovative_Section.bookSuggesitonForm.resources
+C:\Users\leose\OneDrive\Masaüstü\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\Kutuphane_Otomasyonu_2.Odunc_Iade.lendBookForm.resources
+C:\Users\leose\OneDrive\Masaüstü\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\Kutuphane_Otomasyonu_2.Odunc_Iade.returnForm.resources
+C:\Users\leose\OneDrive\Masaüstü\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\Kutuphane_Otomasyonu_2.Properties.Resources.resources
+C:\Users\leose\OneDrive\Masaüstü\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\Kutuphane_Otomasyonu_2.addUserForm.resources
+C:\Users\leose\OneDrive\Masaüstü\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\Kutuphane_Otomasyonu_2.deleteUserForm.resources
+C:\Users\leose\OneDrive\Masaüstü\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\Kutuphane_Otomasyonu_2.updateUserForm.resources
+C:\Users\leose\OneDrive\Masaüstü\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\Kutuphane Otomasyonu_2.csproj.GenerateResource.cache
+C:\Users\leose\OneDrive\Masaüstü\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\Kutuphane Otomasyonu_2.csproj.CoreCompileInputs.cache
+C:\Users\leose\OneDrive\Masaüstü\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\Kutuphan.FEDBF722.Up2Date
+C:\Users\leose\OneDrive\Masaüstü\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\Kutuphane_Otomasyonu_2.exe
+C:\Users\leose\OneDrive\Masaüstü\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\Kutuphane_Otomasyonu_2.pdb
+C:\Users\leose\OneDrive\Masaüstü\Kutuphane Otomasyonu_2\LibraryManagementSystem\bin\Debug\Kutuphane_Otomasyonu_2.exe.config
+C:\Users\leose\OneDrive\Masaüstü\Kutuphane Otomasyonu_2\LibraryManagementSystem\bin\Debug\Kutuphane_Otomasyonu_2.exe
+C:\Users\leose\OneDrive\Masaüstü\Kutuphane Otomasyonu_2\LibraryManagementSystem\bin\Debug\Kutuphane_Otomasyonu_2.pdb
+C:\Users\leose\OneDrive\Masaüstü\Kutuphane Otomasyonu_2\LibraryManagementSystem\bin\Debug\EntityFramework.dll
+C:\Users\leose\OneDrive\Masaüstü\Kutuphane Otomasyonu_2\LibraryManagementSystem\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\leose\OneDrive\Masaüstü\Kutuphane Otomasyonu_2\LibraryManagementSystem\bin\Debug\EntityFramework.xml
+C:\Users\leose\OneDrive\Masaüstü\Kutuphane Otomasyonu_2\LibraryManagementSystem\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\leose\OneDrive\Masaüstü\Kutuphane Otomasyonu_2\LibraryManagementSystem\obj\Debug\Kutuphane Otomasyonu_2.csproj.AssemblyReference.cache
+C:\Users\leose\OneDrive\Masaüstü\Kutuphane Otomasyonu_2\LibraryManagementSystem\obj\Debug\Kutuphane_Otomasyonu_2.addBookForm.resources
+C:\Users\leose\OneDrive\Masaüstü\Kutuphane Otomasyonu_2\LibraryManagementSystem\obj\Debug\Kutuphane_Otomasyonu_2.deleteBookForm.resources
+C:\Users\leose\OneDrive\Masaüstü\Kutuphane Otomasyonu_2\LibraryManagementSystem\obj\Debug\Kutuphane_Otomasyonu_2.updateBookForm.resources
+C:\Users\leose\OneDrive\Masaüstü\Kutuphane Otomasyonu_2\LibraryManagementSystem\obj\Debug\Kutuphane_Otomasyonu_2.eForm.resources
+C:\Users\leose\OneDrive\Masaüstü\Kutuphane Otomasyonu_2\LibraryManagementSystem\obj\Debug\Kutuphane_Otomasyonu_2.Form1.resources
+C:\Users\leose\OneDrive\Masaüstü\Kutuphane Otomasyonu_2\LibraryManagementSystem\obj\Debug\Kutuphane_Otomasyonu_2.Innovative_Section.bookSuggesitonForm.resources
+C:\Users\leose\OneDrive\Masaüstü\Kutuphane Otomasyonu_2\LibraryManagementSystem\obj\Debug\Kutuphane_Otomasyonu_2.Odunc_Iade.lendBookForm.resources
+C:\Users\leose\OneDrive\Masaüstü\Kutuphane Otomasyonu_2\LibraryManagementSystem\obj\Debug\Kutuphane_Otomasyonu_2.Odunc_Iade.returnForm.resources
+C:\Users\leose\OneDrive\Masaüstü\Kutuphane Otomasyonu_2\LibraryManagementSystem\obj\Debug\Kutuphane_Otomasyonu_2.Properties.Resources.resources
+C:\Users\leose\OneDrive\Masaüstü\Kutuphane Otomasyonu_2\LibraryManagementSystem\obj\Debug\Kutuphane_Otomasyonu_2.addUserForm.resources
+C:\Users\leose\OneDrive\Masaüstü\Kutuphane Otomasyonu_2\LibraryManagementSystem\obj\Debug\Kutuphane_Otomasyonu_2.deleteUserForm.resources
+C:\Users\leose\OneDrive\Masaüstü\Kutuphane Otomasyonu_2\LibraryManagementSystem\obj\Debug\Kutuphane_Otomasyonu_2.updateUserForm.resources
+C:\Users\leose\OneDrive\Masaüstü\Kutuphane Otomasyonu_2\LibraryManagementSystem\obj\Debug\Kutuphane Otomasyonu_2.csproj.GenerateResource.cache
+C:\Users\leose\OneDrive\Masaüstü\Kutuphane Otomasyonu_2\LibraryManagementSystem\obj\Debug\Kutuphane Otomasyonu_2.csproj.CoreCompileInputs.cache
+C:\Users\leose\OneDrive\Masaüstü\Kutuphane Otomasyonu_2\LibraryManagementSystem\obj\Debug\Kutuphan.FEDBF722.Up2Date
+C:\Users\leose\OneDrive\Masaüstü\Kutuphane Otomasyonu_2\LibraryManagementSystem\obj\Debug\Kutuphane_Otomasyonu_2.exe
+C:\Users\leose\OneDrive\Masaüstü\Kutuphane Otomasyonu_2\LibraryManagementSystem\obj\Debug\Kutuphane_Otomasyonu_2.pdb
